@@ -1,3 +1,10 @@
 #footer-copyright {
-  
+  position: absolute;
+  /*bottom: auto;*/
+}
+
+.wrapper {
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
 }

@@ -1,4 +1,4 @@
-#footer-copyright {
+footer-copyright {
   position: absolute;
   /*bottom: auto;*/
 }
@@ -11,7 +11,9 @@
 
 .footer {
   position: fixed;
-  left:0;
-  width:100%;
-  bottom:0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
+

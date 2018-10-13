@@ -8,3 +8,10 @@
   min-height: 100%;
   min-width: 100%;
 }
+
+.footer {
+  position: fixed;
+  left:0;
+  width:100%;
+  bottom:0;
+}

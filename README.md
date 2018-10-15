@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Problem Set 3½
 
 Problem Set 3½ allows you to continue exploring your creating side. Having already designed and built your first website, we'll now be using CSS to make it look much nicer.
@@ -104,3 +105,8 @@ Your Canvas submission is due at or before 11:59pm on **Sunday, October 21, 2018
 ### Submission Requirements
 
 All that is required for submission is the top-level URL to your [GitHub](https://github.com/) repository for this problem set.
+=======
+# Problem Set 3
+
+Have fun looking around.
+>>>>>>> 4d6866ce67fc3587075c6f9d0b039ed3d7b8b394

@@ -1,0 +1,26 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff000;
+  text-align: center;
+
+}
+
+*:not(p):not(footer)not:(.footer) {
+  padding:5px;
+  margin: 10px 10px 10px 10px;
+}
+
+a:hover {
+  color:white;
+}
+
+a:active {
+  color:black;
+}
+
+div > p {
+  background-color: lightblue;
+}

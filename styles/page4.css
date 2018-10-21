@@ -1,0 +1,22 @@
+img {
+  height:50%;
+  width:70%;
+  border-style:ridge;
+  border-width:30px;
+}
+
+p {
+  font:Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 19 ;
+  color: red;
+  text-decoration: inherit;
+}
+a:any-link {
+  text-decoration: overline;
+}
+
+div ~ a {
+  text-align:right;
+}

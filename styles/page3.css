@@ -1,0 +1,29 @@
+img {
+  height:50%;
+  width:400px;
+  border-style:ridge;
+  border-width:7px;
+  border-radius:20px;
+}
+
+p {
+  font: Serif;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 10 ;
+  color: blue;
+  text-decoration: inherit;
+}
+
+div[class$="footer"] {
+  border-style: double;
+}
+
+img[alt] {
+  border-color:red;
+}
+
+a:visited{
+  color:lightgreen;
+  background-color:black;
+}

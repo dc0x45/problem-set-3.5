@@ -2,7 +2,16 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="main.css">
+    <style>
+    body {
+    background-color: lightblue;
+    }
+    #rolling{
+    border-style: solid;
+    }
+    </style>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/page2.css">
     <title>The Common techniques of Brazilian Jiu Jitsu</title>
   </head>
   <body>
@@ -19,11 +28,11 @@
     <hr/>
     <br/>
 
-    <center><img src="images/rol.jpg" style="width:50%;height:30%"></center>
-    <div id="content">
+    <center><img id="rol" src="images/rol.jpg"></center>
+    <div class="content">
       <br/>
       <p> Some common BJJ Techniques While Rolling Are: <br/></p>
-      <table>
+      <table id="rolling">
   <thead>
     <tr>
       <th>Name</th>
@@ -33,7 +42,7 @@
   <tbody>
     <tr>
 	    <td><h3>Gaurd</h3></td>
-      <td>In the Guard, the practitioner is on his back controlling an opponent with his legs. The practitioner pushes and pulls with the legs or feet to upset the balance and limit the movements of his opponent. This position comes into play often when an opponent manages to place the practitioner upon his back and the practitioner seeks the best position possible to launch counter-attacks.</td>
+	    <td><p id="gaurdP">In the Guard, the practitioner is on his back controlling an opponent with his legs. The practitioner pushes and pulls with the legs or feet to upset the balance and limit the movements of his opponent. This position comes into play often when an opponent manages to place the practitioner upon his back and the practitioner seeks the best position possible to launch counter-attacks.</p></td>
     </tr>
     <tr>
 	    <td><h3>The back mount</h3></td>
@@ -57,8 +66,6 @@
     </div>
     <center>
     <div class="footer">
-      <br/>
-      <br/>
 
 	<footer>
 	<table style="width:100%">
